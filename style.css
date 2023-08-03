@@ -1,0 +1,75 @@
+body{
+            background-color: mediumslateblue;
+        }
+
+        #form{
+            border: none;
+            border-radius: 50px;
+            height: 100px;
+            background-color: aquamarine;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+
+        }
+        
+        #searchInput{
+            width: 50%;
+            margin-top: 10px;
+            margin-left: 25%;
+            border: 3px solid gray;
+            border-radius: 25px;
+            box-shadow: 0px 0px 5px 0px;
+            text-align: center;
+
+            
+        }
+        .button-wrapper{
+            margin-top: 10px;
+            margin-left: 45%;
+            
+        }
+        #searchButton{
+            margin-right: 10px;
+            width: 100px;
+            height: 25px;
+            border-radius: 50px;
+            font-size: 15px;
+            font-family: serif;
+            background-color: #2D2D2D;
+            color: white;
+            box-shadow: 0px 0px 20px 2px #2D2D2D;
+        }
+        #clearButton{
+            width: 100px;
+            height: 25px;
+            border-radius: 50px;
+            background-color: #FF4A49;
+            font-size: 15px;
+            border: none;
+            font-family: serif;
+            box-shadow: 0px 0px 20px 2px #FF4A49;
+            color: white;
+            
+        }
+        .imagelist-wrapper{
+            background-color: aquamarine;
+            margin-top: 20px;           
+            text-align: center;
+            border-radius: 25px;
+            size: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .imagelist-wrapper > .card{
+            background-color: antiquewhite;
+            margin: 20px;
+            border: 1px solid gray;
+            padding: 15px;
+            border-radius: 25px;
+            border-color: antiquewhite;
+            box-shadow: 3px 5px 8px gray;
+            
+        }
